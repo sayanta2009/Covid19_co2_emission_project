@@ -1,0 +1,122 @@
+<div class="tableContainer">
+  <h2>Select feature to download prediction model</h2>
+<form [formGroup]="downloadModelForm" (ngSubmit)="onClickDownload()">
+  <table>
+    <tr>
+   <td>
+      <input id="Chemical_Industry" type="radio" value="Chemical_Industry" name="feature" formControlName="feature">
+      <label for="Chemical_Industry">Chemical Industry</label>
+   </td>
+   <td>
+      <input id="Cropland" type="radio" value="Cropland" name="feature" formControlName="feature">
+      <label for="Cropland">Cropland</label>
+   </td>
+   <td>
+      <input id="Domestic_Aviation" type="radio" value="Domestic_Aviation" name="feature" formControlName="feature">
+      <label for="Domestic_Aviation">Domestic Aviation</label>
+   </td>
+   <td>
+      <input id="Forestland" type="radio" value="Forestland" name="feature" formControlName="feature">
+      <label for="Forestland">Forestland</label>
+   </td>
+      </tr>
+    <tr>
+   <td>
+      <input id="Grassland" type="radio" value="Grassland" name="feature" formControlName="feature">
+      <label for="Grassland">Grassland</label>
+   </td>
+   <td>
+      <input id="Harvested_Wood_Products" type="radio" value="Harvested_Wood_Products" name="feature" formControlName="feature">
+      <label for="Harvested_Wood_Products">Harvested Wood Products</label>
+   </td>
+   <td>
+      <input id="International_Aviation" type="radio" value="International_Aviation" name="feature" formControlName="feature">
+      <label for="International_Aviation">International Aviation</label>
+   </td>
+   <td>
+      <input id="International_Navigation" type="radio" value="International_Navigation" name="feature" formControlName="feature">
+      <label for="International_Navigation">International Navigation</label>
+   </td>
+      </tr>
+    <tr>
+   <td>
+      <input id="Manufacturing_Industries" type="radio" value="Manufacturing_Industries" name="feature" formControlName="feature">
+      <label for="Manufacturing_Industries">Manufacturing Industries</label>
+   </td>
+   <td>
+      <input id="Metal_Industry" type="radio" value="Metal_Industry" name="feature" formControlName="feature">
+      <label for="Metal_Industry">Metal Industry</label>
+   </td>
+   <td>
+      <input id="Mineral_Industry" type="radio" value="Mineral_Industry" name="feature" formControlName="feature">
+      <label for="Mineral_Industry">Mineral Industry</label>
+   </td>
+   <td>
+      <input id="Petroleum_Refining" type="radio" value="Petroleum_Refining" name="feature" formControlName="feature">
+      <label for="Petroleum_Refining">Petroleum Refining</label>
+   </td>
+      </tr>
+    <tr>
+   <td>
+      <input id="Public_Electricity_and_Heat_Production" type="radio" value="Public_Electricity_and_Heat_Production" name="feature" formControlName="feature">
+      <label for="Public_Electricity_and_Heat_Production">Public Electricity and Heat Production</label>
+   </td>
+   <td>
+      <input id="Railways" type="radio" value="Railways" name="feature" formControlName="feature">
+      <label for="Railways">Railways</label>
+   </td>
+   <td>
+      <input id="Road_Transportation" type="radio" value="Road_Transportation" name="feature" formControlName="feature">
+      <label for="Road_Transportation">Road Transportation</label>
+   </td>
+      <td>
+        <input id="Main_Model" type="radio" value="Main_Model" name="feature" formControlName="feature">
+        <label for="Main_Model">Total CO2 Prediction</label>
+      </td>
+    </tr>
+    </table>
+    <div class="btn-container">
+     <button class="btn" mat-raised-button type="submit">Download</button>
+    </div>
+</form>
+</div>
+
+<br>
+
+<div class="tableContainer">
+  <h2>Select to Download data</h2>
+  <form [formGroup]="downloadDataForm" (ngSubmit)="onClickDownloadData()">
+    <table>
+      <tr>
+    <td>
+      <input id="DataEnergyEmissionsImputed" type="radio" value="DataEnergyEmissionsImputed" name="dataset" formControlName="dataset">
+      <label for="DataEnergyEmissionsImputed">Data for Energy Emissions</label>
+    </td>
+    <td>
+      <input id="DataIndusProcessEmissionsImputed" type="radio" value="DataIndusProcessEmissionsImputed" name="dataset" formControlName="dataset">
+      <label for="DataIndusProcessEmissionsImputed">Data for Industrial Process Emissions</label>
+    </td>
+
+    <td>
+      <input id="DataLandUseEmissionsImputed" type="radio" value="DataLandUseEmissionsImputed" name="dataset" formControlName="dataset">
+      <label for="DataLandUseEmissionsImputed">Data for Land-Use Emissions</label>
+    </td>
+        </tr>
+      <tr>
+    <td>
+      <input id="DataTransportEmissionsImputed" type="radio" value="DataTransportEmissionsImputed" name="dataset" formControlName="dataset">
+      <label for="DataTransportEmissionsImputed">Data for Transport Emissions</label>
+    </td>
+
+    <td>
+      <input id="DataMainImputedModified" type="radio" value="DataMainImputedModified" name="dataset" formControlName="dataset">
+      <label for="DataMainImputedModified">Data for Total CO2 Emissions</label>
+    </td>
+      </tr>
+      </table>
+    <div class="btn-container">
+     <button class="btn" mat-raised-button type="submit">Download</button>
+    </div>
+  </form>
+</div>
+

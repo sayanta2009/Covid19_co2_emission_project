@@ -1,0 +1,51 @@
+$headerBarColor: rgb(20, 80, 90);
+$highlightColor: rgb(243,195,102);
+
+table {
+    margin: 10px;
+    width: 90%;
+    border-collapse: separate;
+    border-spacing: 25 25px;
+}
+
+td {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: $headerBarColor;
+    &:hover{
+          background: lighten($headerBarColor, 10%);
+    }
+}
+
+input {
+    visibility: hidden;
+}
+label {
+    cursor: pointer;
+}
+
+input:checked + label {
+    font-weight: bold;
+    color: $highlightColor
+}
+
+.btn-container{
+    width: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 35%;
+}
+
+.btn{
+    width: 30%;
+    height: 70px;
+    background: lighten($headerBarColor, 20%);
+}
+
+.tableContainer{
+    width: 100%;
+    margin-left: 4%;
+}

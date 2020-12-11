@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap');
+
+.dp1
+{
+	float:left;
+	height: 100%;
+	width: 30%;
+}
+.dp2
+{
+	float:left;
+	height: 100%;
+	width: 32%;
+}
+.dp{
+	float:left;
+	height: 90%;
+	width: 30%;
+}
+
+.dpAna{
+	float: left;
+	height: 100%;
+	width: 35%;
+}
+.dpIsa{
+	float:left;
+	height: 100%;
+	width: 30%;
+}
+
+
+.dptext{
+	float:right;
+}
+mat-card{
+	margin: 10px;
+	width:auto;
+	height:200px;
+	font-size:15px;
+	font-family: 'Baloo Tamma 2', cursive;
+}
+td{
+	width:40%;
+}

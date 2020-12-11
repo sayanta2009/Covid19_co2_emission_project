@@ -1,0 +1,73 @@
+$headerBarColor: rgb(20, 80, 90);
+$highlightColor: rgb(243,195,102);
+
+.countryContainer{
+
+}
+.rcorners2 {
+  margin-top: 40px;
+  /*padding: 20px;*/
+  width: 40%;
+  height: 400px;
+  text-align: center;
+  float: left;
+  border-radius: 15px;
+}
+
+.rightaligneddiv{
+  float: right;
+  width: 45%;
+  height: 400px;
+
+}
+
+.mapsvg {
+
+  width: 600px;
+  height: 400px;
+
+
+}
+
+.scrollbar{
+  width: 90%;
+  height: 80%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.graphElem{
+  margin: 10px;
+  /*padding-top: 10px;*/
+  float: left;
+  clear: left;
+  width: 90%;
+  height: 600px;
+}
+
+.spinner{
+  margin: 10px;
+  float: left;
+  clear: left;
+  width: 90%;
+  height: 600px;
+}
+
+.rangeBar{
+  width: 90%;
+}
+
+
+.btn-container{
+    width: auto;
+    margin-top: 10px;
+    padding-left: 35%;
+}
+
+.btn{
+    margin-top: 15px;
+    width: 30%;
+    height: 40px;
+    background: lighten($headerBarColor, 20%);
+    color: white;
+}

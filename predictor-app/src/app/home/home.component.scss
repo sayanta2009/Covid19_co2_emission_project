@@ -1,0 +1,27 @@
+$headerBarColor: rgb(20, 80, 90);
+
+.styledimg {
+
+background-image: url(../background_emissions_edited.jpeg);
+opacity:0.9;
+height:35em; background-size:cover; width:auto;
+background-position:50% 90%;
+
+}
+
+h1{text-align: center;}
+p{
+	margin-left: 20%;
+	padding-top: 20%;
+    color: white;
+    width: 60%;
+    font-size: 24px;
+	font-weight: bold;
+    text-decoration: none;
+
+  }
+
+.parisLink {
+    color: lighten($headerBarColor,20%)
+}
+
