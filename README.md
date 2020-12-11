@@ -1,4 +1,3 @@
-![Annotation_2020-09-04_145552__3_](/uploads/ef20345d3077711ac38014a3be970466/Annotation_2020-09-04_145552__3_.png)
 # AMI Group 15 Machine Learning Model Pipeline and User Interface for Web Application
 
 ## Creating python environment & dependency installation
@@ -63,14 +62,8 @@ Navigate to the predictor-app folder and run
     
 to start the client. Navigate to `http://localhost:4200/`
 
-This is a screenshot of the home page the user can see after navigating to the above link.
-
-![home_screenshot](/uploads/229b34ec0acb6f3df4db87280e7524a2/home_screenshot.png)
 
 To start the python server run
 
     python3 src/server.py
     
-Screenshot for a successful prediction:
-
-![prediction_screenshot](/uploads/a9097aa35b98410c58dc96411177c53c/prediction_screenshot.png)
